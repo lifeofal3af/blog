@@ -1,7 +1,14 @@
 ---
 layout: default
 ---
-
+<script src="https://utteranc.es/client.js"
+        repo="lifeofal3af/blog"
+        issue-term="pathname"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 <article>
   <h2>{{ page.title }}</h2>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
