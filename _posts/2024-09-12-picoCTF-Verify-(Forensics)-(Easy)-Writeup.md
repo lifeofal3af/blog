@@ -48,7 +48,7 @@ I made a python script with the debugging help of chatGPT to make this script th
 
 `openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -salt -in "/home/ctf-player/drop-in/$file_name" -k picoCTF;` command as shown here:
 
-```
+```py
 import os
 
 def run_bash_script_on_files(folder_path, bash_script_path):
