@@ -29,7 +29,7 @@ Which means that since the server is running on Linux, we can assume that the se
 ## Exploit Chain
 To demonstrate this part of the writeup, we will pretend that english is code.
 1. First, Register an account:
-```psuedocode
+```
 
 unique_suffix  =  randnum(1000,9999)
 Username = "Wehacking" + unique_suffix	
