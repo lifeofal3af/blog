@@ -21,7 +21,9 @@ random_password  =  ''.join(random.choice(NUMBERS)  for  _  in  range(32))
 ```
 
 Looking at the definition of python's `random.seed()` function, it states that:
+
 ` None or no argument seeds from current time or from an operating system specific randomness source if available.`
+
 Which means that since the server is running on Linux, we can assume that the seed is derived from the Unix Time-stamp. which means that we can potentially get the seed just by looking at the time.
 
 ## Exploit Chain
